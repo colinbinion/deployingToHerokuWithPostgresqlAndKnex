@@ -42,7 +42,7 @@ module.exports = {
 };
 ```
 
-* Now create a .env file and then add the connection from your knexfile.js to your .env file as an environment variable called DATABASE_URL
+* Now add the connection from your knexfile.js to your .env file as an environment variable called DATABASE_URL
 
 ```
 //in the .env file
