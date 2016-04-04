@@ -11,7 +11,6 @@ $ cd deployingToHerokuWithPostgresqlAndKnex
 $ npm install
 $ createdb knex-heroku
 $ touch .env
-$ echo .env >> .gitignore
 ```
 
 * Run the migration and seed files locally:
