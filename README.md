@@ -7,7 +7,6 @@
 ```
 $ cd deployingToHerokuWithPostgresqlAndKnex
 $ npm install
-$ npm install --save dotenv
 $ createdb knex-heroku
 $ touch .env
 $ echo .env >> .gitignore
@@ -42,7 +41,7 @@ module.exports = {
 };
 ```
 
-* Now create a .env file and then add the connection to your .env file as an environment variable called DATABASE_URL
+* Now create a .env file and then add the connection from your knexfile.js to your .env file as an environment variable called DATABASE_URL
 
 ```
 //in the .env file
@@ -71,7 +70,7 @@ module.exports = {
 
 * Good, now your database connection will be able to use either your local environment variable or the upcoming heroku database environment variable
 
-* Create a heroku app
+* Create a heroku app in the root directory of this exercise
 
 ```
 $ heroku create
