@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+
 var knex = require('knex')(require('../knexfile')['production']);
 
 /* GET home page. */

@@ -1,5 +1,7 @@
 # Deploying to Heroku with Postgresql and Knex
 
+# Slides: http://slides.com/akyunaakish/deploying#/
+
 ## Fork and clone
 
 * Install dependencies:
