@@ -105,3 +105,7 @@ $ heroku open
 ```
 
 * Congrats you have a remote heroku database !
+
+# STRETCH GOAL
+
+* Get together with your team and deploy the application you made at Fridays Hackathon
